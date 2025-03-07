@@ -3,10 +3,12 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: gilroy;
+    color: #fff; /* Changed font color to white */
 }
 html,body{
     height: 100%;
     width: 100%;
+    background-color: #252525; /* Changed background color */
 }
 #main{
     position: relative;
@@ -16,25 +18,25 @@ html,body{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #f1f1f1;
+    background-color: #252525; /* Changed background color */
 }
 #page1{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #f1f1f1;
+    background-color: #252525; /* Changed background color */
 }
 #page2{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #f1f1f1;
+    background-color: #252525; /* Changed background color */
 }
 #page3{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #f1f1f1;
+    background-color: #252525; /* Changed background color */
 }
 canvas{
     position: relative;
@@ -171,19 +173,21 @@ canvas{
 }
 #page3>#text3>h1{
     font-size: 36px;
-
 }
 
 a, #contact-button{
     position:relative;
     z-index: 50;
     pointer-events: auto;
-  }
-  
-  canvas , #text3, #page3, #main,body,html,div:not(#contact-button) {
+}
+
+canvas , #text3, #page3, #main,body,html,div:not(#contact-button) {
     /* Replace with the actual div ID */
      pointer-events: none;
-   
- }
-
- 
+}
+a {
+    color: inherit; /* Ensures links retain their default color */
+}
+a {
+    color: #551A8B !important;
+}
