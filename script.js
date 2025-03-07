@@ -531,4 +531,4 @@ document.addEventListener("click", function(event) {
 });
 
 
-document.body.style.backgroundColor = "rgb(30,30,30)"; // Adjust the RGB values as needed
+document.body.style.backgroundColor = "rgb(37,37,37)"; // Adjust the RGB values as needed
